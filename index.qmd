@@ -1,5 +1,10 @@
-# Baseball
+---
+title: "Baseball"
+---
 
-This site explores the history of Major League Baseball through its data.
+## Welcome
 
-Using the Lahman database, we will investigate the players, teams, and patterns that have shaped the game.
+This site explores the history of Major League Baseball through its
+data. Using the Lahman database --- a complete record of every team and
+player season since 1871 --- we look at how the game has changed,
+starting with its signature event: the home run.
