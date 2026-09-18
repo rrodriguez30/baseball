@@ -7,5 +7,6 @@ title: "Home runs"
 library(tidyverse)
 library(Lahman)
 
-Teams
+Teams |>
+	select(yearID, name, G, HR)
 ```
