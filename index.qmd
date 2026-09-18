@@ -1,3 +1,5 @@
 # Baseball
 
-Welcome to the Baseball website.
+This site explores the history of Major League Baseball through its data.
+
+Using the Lahman database, we will investigate the players, teams, and patterns that have shaped the game.
