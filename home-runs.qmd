@@ -8,7 +8,6 @@ library(tidyverse)
 library(Lahman)
 
 Teams |>
-	filter(yearID %in% c(2019, 1981, 1994, 2020)) |>
 	group_by(yearID) |>
 	summarize(
 		total_home_runs = sum(HR),
@@ -17,5 +16,12 @@ Teams |>
 	mutate(
 		home_runs_per_game = total_home_runs / total_team_games
 	) |>
-	arrange(yearID)
+	ggplot(aes(x = yearID, y = home_runs_per_game)) +
+	geom_line() +
+	labs(
+		title = "Home runs per game by season",
+		x = "Season",
+		y = "Home runs per game",
+		caption = "Source: Lahman database"
+	)
 ```
