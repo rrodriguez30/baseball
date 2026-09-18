@@ -3,3 +3,6 @@ project:
 
 website:
   title: "Baseball"
+
+execute:
+  echo: false
